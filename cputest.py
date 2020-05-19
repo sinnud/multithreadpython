@@ -21,7 +21,7 @@ def cputest(args_dict):
     return True
 
 def main(looplen=None):
-    n=10 # multithread number
+    n=17 # multithread number increasing to 17
     args_dict = {}
     args_dict['n']=n
     args_dict['looplen']=looplen
